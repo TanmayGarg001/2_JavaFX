@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0"
+            prefWidth="886.0" xmlns="http://javafx.com/javafx/16">
+    <Button layoutX="805.0" layoutY="380.0" mnemonicParsing="false" text="Button"/>
+    <Button layoutX="715.0" layoutY="380.0" mnemonicParsing="false" text="Button"/>
+    <Button layoutX="629.0" layoutY="380.0" mnemonicParsing="false" text="Button"/>
+    <Button layoutX="545.0" layoutY="380.0" mnemonicParsing="false" text="Button"/>
+    <Button layoutX="454.0" layoutY="380.0" mnemonicParsing="false" text="Button"/>
+    <Button layoutX="365.0" layoutY="380.0" mnemonicParsing="false" text="Button"/>
+    <Button layoutX="271.0" layoutY="381.0" mnemonicParsing="false" text="Button"/>
+    <Arc fill="#e8ff1f" layoutX="181.0" layoutY="393.0" length="270.0" radiusX="100.0" radiusY="100.0" startAngle="45.0"
+         stroke="BLACK" strokeType="INSIDE" type="ROUND"/>
+</AnchorPane>
