@@ -1,6 +1,7 @@
 # 2_JavaFX
 All of the basics and core of JavaFX                          
-Source: YT, Documentation etc. Includes                                   
+Source: YT, Documentation etc.          
+Includes:                                      
 >Basics                          
 >Scenes & Drawing                                    
 >Event Handling & CSS                                             
