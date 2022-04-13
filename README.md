@@ -9,4 +9,4 @@ Includes:
 >Controllers ,Views & Fields                        
 >Pickers, Boxes, Sliders & Bars           
 >Spinner, Menus and FlowPane       
->Key Event, Animations & Media View             
+>Key Event, Animations & Media View and much more.            
