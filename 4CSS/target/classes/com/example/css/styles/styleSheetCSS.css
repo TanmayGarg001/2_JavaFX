@@ -1,0 +1,14 @@
+.root {
+    -fx-background-color: #d6a6cf;
+}
+
+.label {
+    -fx-font-size: 24;
+    -fx-alignment: center;
+}
+
+#titleLabel {
+    -fx-font-family: Calibri, sans-serif;
+    -fx-text-fill: #3051a7;
+
+}

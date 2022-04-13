@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="966.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="titleLabel" layoutY="155.0" prefHeight="17.0" prefWidth="966.0" text="Heading" />
+    <Label fx:id="textLabel" layoutY="439.0" prefHeight="17.0" prefWidth="966.0" text="CSS Styling wohoo!" />
+</AnchorPane>
