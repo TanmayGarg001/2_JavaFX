@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="698.0" prefWidth="1014.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.imageviewtextfield.Controller1">
+    <Text fx:id="headingScene1" layoutX="401.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image View and Text View" wrappingWidth="211.837890625">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Text>
+    <ImageView fx:id="imgId" fitHeight="366.0" fitWidth="403.0" layoutX="407.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@images/img_1.png" />
+    </ImageView>
+    <Button fx:id="btn" layoutX="481.0" layoutY="539.0" mnemonicParsing="false" onAction="#changePicture" text="Change" />
+    <Label layoutX="814.0" layoutY="270.0" prefHeight="24.0" prefWidth="116.0" text="Enter you age :">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <Button fx:id="submit" layoutX="842.0" layoutY="349.0" mnemonicParsing="false" onAction="#submit" text="Button">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Button>
+    <TextField fx:id="age" layoutX="798.0" layoutY="309.0" />
+    <Label fx:id="message" layoutX="805.0" layoutY="400.0" prefHeight="24.0" prefWidth="170.0">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+</AnchorPane>

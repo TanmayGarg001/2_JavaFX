@@ -1,0 +1,8 @@
+.root {
+    -fx-background-color: lightblue;
+}
+
+#headingScene1 {
+    -fx-font-size: 18px;
+    -fx-font-family: Constantia;
+}
