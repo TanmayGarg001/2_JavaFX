@@ -1,0 +1,13 @@
+.root {
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-justify-content: center;
+    -fx-align-items: center;
+    -fx-background-color: #d6a6cf;
+}
+
+#welcomeID {
+    -fx-font-family: Calibri;
+    -fx-text-alignment: center;
+    -fx-font-size: 24;
+}

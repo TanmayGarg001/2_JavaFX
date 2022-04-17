@@ -1,0 +1,18 @@
+.root {
+    -fx-display: flex;
+    -fx-flex-direction: column;
+    -fx-justify-content: center;
+    -fx-align-items: center;
+    -fx-background-color: #1fb6a9;
+}
+
+.userFill {
+    -fx-font-family: Consolas;
+    -fx-border-radius: 10px;
+}
+
+.labelS1 {
+    -fx-font-family: Calibri;
+    -fx-text-alignment: center;
+    -fx-font-weight: 600;
+}
