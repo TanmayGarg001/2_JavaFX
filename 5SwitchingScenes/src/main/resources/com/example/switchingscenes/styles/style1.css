@@ -1,0 +1,25 @@
+#textLabel1 {
+    -fx-font-size: 24px;
+    -fx-font-family: Calibri, monospace;
+    -fx-alignment: center;
+}
+
+#bScene2 {
+    -fx-width: 200px;
+    -fx-height: 40px;
+    -fx-line-height: 40px;
+    -fx-font-size: 16px;
+}
+
+#textLabel2 {
+    -fx-font-size: 32px;
+    -fx-font-family: Calibri, monospace;
+    -fx-alignment: center;
+}
+
+#bScene1 {
+    -fx-width: 250px;
+    -fx-height: 60px;
+    -fx-line-height: 40px;
+    -fx-font-size: 16px;
+}
