@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="744.0" prefWidth="1059.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sliderprogressbar.HelloController">
+    <Slider fx:id="thermometer" blockIncrement="1.0" layoutX="52.0" layoutY="25.0" majorTickUnit="10.0" max="110.0"
+            min="-10.0" minorTickCount="5" orientation="VERTICAL" prefHeight="695.0" prefWidth="69.0"
+            showTickLabels="true" showTickMarks="true" value="25.0"/>
+    <Label fx:id="tempMessage" layoutX="140.0" layoutY="25.0" prefHeight="44.0" prefWidth="179.0"
+           text="Temperature is : 25°C ">
+        <font>
+            <Font name="Candara Bold" size="18.0"/>
+        </font>
+    </Label>
+    <ProgressBar fx:id="progressPercentage" layoutX="267.0" layoutY="200.0" prefHeight="27.0" prefWidth="618.0"
+                 progress="0.0">
+        <effect>
+            <Reflection/>
+        </effect>
+    </ProgressBar>
+    <Label fx:id="progressLabel" layoutX="524.0" layoutY="249.0" text="Progress :  0%">
+        <font>
+            <Font name="Candara Bold" size="18.0"/>
+        </font>
+    </Label>
+    <Button fx:id="btnProg" layoutX="903.0" layoutY="201.0" mnemonicParsing="false" onAction="#increaseProgress"
+            text="Increase Progress">
+        <effect>
+            <Reflection/>
+        </effect>
+    </Button>
+</AnchorPane>
