@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="667.0" prefWidth="964.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.checkboxradiobuttons.HelloController">
+    <ImageView fx:id="offBulb" fitHeight="150.0" fitWidth="200.0" layoutX="433.0" layoutY="268.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@images/bulbOFF.png"/>
+    </ImageView>
+    <Label fx:id="labelStat" layoutX="427.0" layoutY="219.0" text="Bulb is OFF :0" textAlignment="CENTER">
+        <font>
+            <Font name="ArtifaktElement-Regular" size="16.0"/>
+        </font>
+    </Label>
+    <CheckBox fx:id="bulbStatus" layoutX="433.0" layoutY="451.0" mnemonicParsing="false" onAction="#triggerBulb"
+              text="ON/OFF">
+        <font>
+            <Font name="Artifakt Element Bold" size="18.0"/>
+        </font>
+    </CheckBox>
+    <RadioButton fx:id="pizza" layoutX="50.0" layoutY="258.0" mnemonicParsing="false" onAction="#triggerSnack"
+                 text="Pizza">
+        <font>
+            <Font name="Consolas" size="14.0"/>
+        </font>
+        <toggleGroup>
+            <ToggleGroup fx:id="snackType"/>
+        </toggleGroup>
+    </RadioButton>
+    <RadioButton fx:id="burger" layoutX="50.0" layoutY="298.0" mnemonicParsing="false" onAction="#triggerSnack"
+                 text="Burger" toggleGroup="$snackType">
+        <font>
+            <Font name="Consolas" size="14.0"/>
+        </font>
+    </RadioButton>
+    <RadioButton fx:id="roll" layoutX="50.0" layoutY="338.0" mnemonicParsing="false" onAction="#triggerSnack"
+                 text="Roll" toggleGroup="$snackType">
+        <font>
+            <Font name="Consolas" size="14.0"/>
+        </font>
+    </RadioButton>
+    <RadioButton fx:id="sushi" layoutX="50.0" layoutY="379.0" mnemonicParsing="false" onAction="#triggerSnack"
+                 text="Sushi" toggleGroup="$snackType">
+        <font>
+            <Font name="Consolas" size="14.0"/>
+        </font>
+    </RadioButton>
+    <RadioButton fx:id="sub" layoutX="50.0" layoutY="423.0" mnemonicParsing="false" onAction="#triggerSnack" text="Sub"
+                 toggleGroup="$snackType">
+        <font>
+            <Font name="Consolas" size="14.0"/>
+        </font>
+    </RadioButton>
+    <Label layoutX="48.0" layoutY="219.0" text="Select a snack :">
+        <font>
+            <Font name="ArtifaktElement-Regular" size="16.0"/>
+        </font>
+    </Label>
+    <Label fx:id="selectedItem" layoutX="50.0" layoutY="461.0" text="Selected Item : None">
+        <font>
+            <Font name="ArtifaktElement-Regular" size="16.0"/>
+        </font>
+    </Label>
+</AnchorPane>
