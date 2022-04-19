@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane fx:id="myPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.datepickercolorpickercoicebox.HelloController">
+    <DatePicker fx:id="datePick" layoutX="214.0" layoutY="50.0" promptText="MM/DD/YYYY"/>
+    <Label layoutX="204.0" layoutY="14.0" text="Select your date of birth :">
+        <font>
+            <Font name="Cambria" size="18.0"/>
+        </font>
+    </Label>
+    <Label fx:id="message" layoutX="1.0" layoutY="266.0" prefHeight="107.0" prefWidth="600.0" text="     Hey!">
+        <font>
+            <Font name="Consolas Bold" size="16.0"/>
+        </font>
+    </Label>
+    <Button fx:id="submit" layoutX="36.0" layoutY="188.0" mnemonicParsing="false" onAction="#messageUpdate"
+            text="Submit"/>
+    <ColorPicker fx:id="colorPick" layoutX="447.0" layoutY="50.0"/>
+    <Label layoutX="454.0" layoutY="14.0" text="Select a color :">
+        <font>
+            <Font name="Cambria" size="18.0"/>
+        </font>
+    </Label>
+    <TextField fx:id="namePick" layoutX="30.0" layoutY="50.0"/>
+    <Label layoutX="36.0" layoutY="14.0" text="Enter your name :">
+        <font>
+            <Font name="Cambria" size="18.0"/>
+        </font>
+    </Label>
+    <ChoiceBox fx:id="choiceEat" layoutX="422.0" layoutY="188.0" prefWidth="150.0"/>
+    <Label layoutX="437.0" layoutY="149.0" text="Select a choice :">
+        <font>
+            <Font name="Cambria" size="18.0"/>
+        </font>
+    </Label>
+</AnchorPane>
