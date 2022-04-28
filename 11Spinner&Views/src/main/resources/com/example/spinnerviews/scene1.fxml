@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="669.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spinnerviews.HelloController">
+    <Spinner fx:id="spinnerItem" layoutX="434.0" layoutY="562.0" />
+    <Label fx:id="countTrack" layoutX="346.0" layoutY="565.0" text="Count : 0">
+        <font>
+            <Font name="Cambria Bold" size="16.0" />
+        </font>
+    </Label>
+    <ListView fx:id="listV" layoutX="583.0" layoutY="14.0" prefHeight="325.0" prefWidth="363.0" />
+    <TreeView fx:id="treeV" layoutX="15.0" layoutY="14.0" onContextMenuRequested="#selectItem" onMouseClicked="#selectItem" prefHeight="325.0" prefWidth="363.0" />
+    <Label fx:id="labelLV" alignment="CENTER" layoutX="683.0" layoutY="363.0" text="Item selected : None">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="labelTV" alignment="CENTER" layoutX="115.0" layoutY="363.0" text="Item selected : None">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+</AnchorPane>
