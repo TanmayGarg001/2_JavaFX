@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane opacity="0.3" prefHeight="678.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.animations.HelloController">
+    <ImageView fx:id="stickMan" fitHeight="292.0" fitWidth="227.0" layoutX="372.0" layoutY="196.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@icons/stickMan.png"/>
+    </ImageView>
+</AnchorPane>
